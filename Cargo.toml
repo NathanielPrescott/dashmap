@@ -13,6 +13,10 @@ documentation = "https://docs.rs/dashmap"
 keywords = ["atomic", "concurrent", "hashmap"]
 categories = ["concurrency", "algorithms", "data-structures"]
 
+[lib]
+name = "dashmap"
+path = "src/lib.rs"
+
 [features]
 raw-api = []
 typesize = ["dep:typesize"]
